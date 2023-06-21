@@ -1,0 +1,51 @@
+.button {
+	display: inline-block;
+
+	padding: 10px;
+
+	cursor: pointer;
+	transition: all 0.5s ease-in;
+	text-align: center;
+
+	border: none;
+	border-radius: 5px;
+
+	font-family: var(--font-famaly);
+	font-size: 14px;
+}
+
+.primari {
+	color: var(--white);
+	background: var(--primari);
+}
+
+.primari:hover {
+	background: var(--primari-hover);
+}
+
+.goust {
+	color: var(--font);
+	border: 1px solid var(--gren-ligth);
+	background: none;
+}
+
+.goust:hover {
+	color: var(--white);
+	background: var(--primari);
+}
+
+.arrow {
+	display: inline-block;
+
+	margin-left: 10px;
+}
+
+.down {
+	transition: all 0.5s ease;
+	transform: rotate(90deg);
+}
+
+.primari svg,
+.goust:hover {
+	fill: var(--withe);
+}

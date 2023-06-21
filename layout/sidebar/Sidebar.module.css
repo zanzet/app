@@ -1,0 +1,12 @@
+.category__wrap {
+    margin-top: 5px;
+}
+
+.category__link {
+    font-size: 20px;
+    margin-top: 5px;
+    cursor:pointer
+}
+.categori__active{
+    color:var(--primari)
+}

@@ -1,0 +1,46 @@
+.item {
+    margin-top: 10px;
+    transition: all .5s ease;
+    display: flex;
+}
+
+.item__img {
+    width: 400px;
+}
+
+.img__preve {
+    width: 100%;
+}
+
+.img__wrap {
+    display: inline-block;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.img__smoll {
+    width: 100px;
+    height: 100px;
+    margin: 0 5px 5px;
+}
+
+.item__wrap__descrp {
+    margin-left: 30px;
+}
+
+.item__back {
+    margin-left: 100px;
+}
+
+.item__prise {
+    width: 510px;
+    margin-bottom: 20px;
+}
+
+.item__button {
+    width: 175px;
+    display: flex;
+    justify-content: space-between;
+}

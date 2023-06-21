@@ -1,0 +1,25 @@
+.item {
+    width: 270px;
+    height: 250px;
+    border: 2px solid var(--gren-ligth);
+    margin-bottom: 10px;
+    transition: all .5s ease;
+    margin-right: 20px;
+}
+
+.item:hover {
+    border: 2px solid var(--gren);
+}
+
+.img {
+    width: 266px;
+    height: 150px;
+    object-fit: fill;
+}
+
+.prise__wrapp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+}
